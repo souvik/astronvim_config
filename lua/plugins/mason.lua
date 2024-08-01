@@ -9,6 +9,7 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "rubocop"
         -- add more arguments for adding more language servers
       },
     },
@@ -20,6 +21,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "rubocop"
         -- add more arguments for adding more null-ls sources
       },
     },
