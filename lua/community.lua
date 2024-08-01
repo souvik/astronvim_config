@@ -5,8 +5,10 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.ruby" },
+  { import = "astrocommunity.pack.typescript" },
 }
